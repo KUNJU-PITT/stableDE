@@ -1,5 +1,9 @@
 # stableDE: Stability of results from differential expression analysis in RNA sequencing data
 
+## Abstract
+
+As RNA-seq becomes the assay of choice for measuring gene expression levels, differential expression analysis has received extensive attentions of researchers. To date, for the evaluation of DE methods, most attention has been paid on validity. Yet another important aspect of DE methods, stability, is often overlooked. In this study, we empirically show the need of assessing stability of DE methods and propose a stability metric, called Area Under the Correlation curve (AUCOR), that generates the perturbed datasets by a mixture distribution and combines the information of similarities between sets of selected features from these perturbed datasets and the original dataset. Empirical results support that AUCOR can effectively rank the DE methods in terms of stability for given RNA-seq datasets. In addition, we explore how biological or technical factors from experiments and data analysis affect the stability of DE methods.
+
 ## Installation Guide
 
 For the installation, the R package devtools is needed.
