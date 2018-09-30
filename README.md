@@ -22,7 +22,7 @@ if(any(!pkg %in% installed.packages()[, "Package"])) {
   biocLite(new.pkg, dependencies = TRUE, ask = FALSE)
 }
 ```
-Package `samr' have been removed from CRAN. You may download the package from R Cran Archive 'https://cran.r-project.org/src/contrib/Archive/samr/' and install it manually. 
+Package `samr' has been removed from CRAN. You may download the package from R Cran Archive 'https://cran.r-project.org/src/contrib/Archive/samr/' and install it manually. 
             
 Then, you can install stableDE directly using devtools:
 ```{r}
