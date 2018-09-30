@@ -459,7 +459,7 @@ samr_SAMseq.pfun <-
       Padj[i] <- padj
       padj <- Padj
     }
-    cbind(pval = padj, padj = padj) #pval, padj are identical return
+    cbind(pval = padj, padj = padj) #pval, padj are identical
   }
 
 
