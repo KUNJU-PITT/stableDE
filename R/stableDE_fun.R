@@ -152,7 +152,7 @@ ave_similarities <- function (counts, group, DEmethod = c("edgeR", "edgeR_robust
 #' @export
 
 
-AUCOR_fun <- function (object) {
+AUCOR_fun <- function (object, max.alpha = 0.1) {
 
   alpha <- object[, "alpha.vec"]
   corrs <- object[, "cor"]
@@ -169,7 +169,7 @@ AUCOR_fun <- function (object) {
   smooth_line <- cbind(x = xx, predict = pre)
   colnames(smooth_line) <- c("x", "predict")
 
-  list(smooth_line = smooth_line, AUCOR = AUCOR)
+  list(smooth_line = smooth_line, AUCOR = AUCOR / max.alpha)
 
 }
 
