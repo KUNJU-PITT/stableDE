@@ -1,6 +1,6 @@
 Package: stableDE
 Type: Package
-Title: Stability of results from differential expression analysis in RNA sequencing data
+Title: Stability of methods for differential expression analysis of RNA-Seq data
 Version: 0.1
 Author: Bingqing Lin <linb0008@e.ntu.edu.sg>
 Maintainer: Bingqing Lin <linb0008@e.ntu.edu.sg>

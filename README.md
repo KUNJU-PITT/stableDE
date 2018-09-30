@@ -1,4 +1,5 @@
-# stableDE: Stability of results from differential expression analysis in RNA sequencing data
+# stableDE: Stability of methods for differential expression analysis of RNA-Seq data
+
 
 ## Abstract
 
