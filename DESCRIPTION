@@ -9,8 +9,8 @@ Description: A stability metric, called Area Under the Correlation curve (AUCOR)
     the information of similaritiesbetween sets of selected features from these 
     perturbed datasets and the original dataset.
 License: GPL 
+Depends: R (>= 3.4), edgeR
 Imports: limma
-Depends: R (>= 3.4)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0
