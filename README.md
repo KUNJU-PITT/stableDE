@@ -17,7 +17,7 @@ I recommend to install first the dependencies manually and then stableDE:
 ```{r}
 pkg <- c('edgeR', 'limma', 'DESeq', 'DESeq2', 'EBSeq', 'limma')
 if(any(!pkg %in% installed.packages()[, "Package"])) {
-  new.pkg = pkg[!pkg %in% installed.packages()[, "Package"]]
+  new.pkg <- pkg[!pkg %in% installed.packages()[, "Package"]]
   source("https://bioconductor.org/biocLite.R")
   biocLite(new.pkg, dependencies = TRUE, ask = FALSE)
 }
@@ -34,7 +34,7 @@ devtools::install_github("linbingqing/stableDE")
 ```{r}
 bottomly <- RNAseq_data(sel_size = 3)
 ave <- ave_similarities(counts = bottomly$counts_evaluation,
-group = bottomly$group_evaluation, DEmethod = "edgeR")
+group <- bottomly$group_evaluation, DEmethod = "edgeR")
 res <- AUCOR_fun(ave$ave_sim)
 ```
 The input counts is a RNA-seq raw read counts matrix.
